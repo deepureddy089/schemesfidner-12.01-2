@@ -1,0 +1,27 @@
+Options -Indexes
+# Enable URL Rewriting (required for clean URLs)
+
+
+ErrorDocument 400 /pages/error400.php    
+ErrorDocument 401 /pages/error401.php    
+ErrorDocument 403 /pages/error403.php   
+ErrorDocument 404 /pages/error404.php
+ErrorDocument 405 /pages/error405.php     
+ErrorDocument 408 /pages/error408.php    
+ErrorDocument 410 /pages/error410.php    
+ErrorDocument 422 /pages/error422.php     
+ErrorDocument 429 /pages/error429.php     
+ErrorDocument 500 /pages/error500.php     
+ErrorDocument 502 /pages/error502.php     
+ErrorDocument 503 /pages/error503.php     
+ErrorDocument 504 /pages/error504.php     
+
+
+RewriteEngine On
+
+# Redirect old ID-based URLs to new slug-based URLs
+RewriteRule ^schemes/([0-9]+)$ /schemes/pension-scheme [R=301,L]
+
+# Rewrite new slug-based URLs to the PHP script in the "search" folder
+RewriteRule ^schemes/([a-z0-9-]+)$ /search/scheme_details.php?slug=$1 [L]
+

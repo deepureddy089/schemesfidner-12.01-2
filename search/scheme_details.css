@@ -1,0 +1,143 @@
+/* Title Section */
+.scheme-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px; /* Add space below the title */
+}
+
+/* Voting Buttons */
+.voting-buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Add space between voting and save buttons */
+}
+
+.voting-buttons button {
+    font-size: 1rem;
+    margin-right: 10px;
+    color: black;
+    border: none;
+    background: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.voting-buttons button i {
+    font-size: 1.5rem;
+}
+
+.voting-buttons .upvoted {
+    color: #20c997; /* Teal for upvoted state */
+}
+
+.voting-buttons .downvoted {
+    color: #20c997; /* Teal for downvoted state */
+}
+
+.voting-buttons .not-voted {
+    color: #6c757d; /* Grey for not voted state */
+}
+
+/* Save Button */
+.like-button {
+    font-size: 1rem;
+    color: grey; /* Default color for hollow heart */
+    border: none;
+    background: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.like-button i {
+    font-size: 1.2rem;
+}
+
+.like-button .save-text {
+    margin-left: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.like-button.liked i {
+    color: red; /* Filled red for saved scheme */
+}
+
+/* Tabs Section */
+.nav-tabs {
+    border-bottom: none;
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    white-space: nowrap; /* Prevent wrapping of tab text */
+}
+
+.nav-tabs .nav-item {
+    position: relative;
+    flex: 0 0 auto; /* Prevent flex items from shrinking */
+}
+
+.nav-tabs .nav-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 25%;
+    height: 50%;
+    width: 1px;
+    background-color: #ddd;
+}
+
+.nav-tabs .nav-link {
+    font-size: 1.1rem;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 10px 20px;
+    white-space: nowrap; /* Prevent wrapping of tab text */
+}
+
+.nav-tabs .nav-link.active {
+    border-bottom: 2px solid #4CAF50;
+    color: #4CAF50;
+}
+
+/* Hide scrollbar for a cleaner look */
+.nav-tabs::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.nav-tabs {
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+/* State Logo */
+.state-logo {
+    max-width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .scheme-title {
+        font-size: 1.5rem;
+    }
+
+    .voting-buttons button, .like-button {
+        font-size: 0.9rem;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}

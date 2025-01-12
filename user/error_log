@@ -1,0 +1,67 @@
+[06-Jan-2025 13:46:37 UTC] PHP Warning:  include(session_start.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/user_login.php on line 2
+[06-Jan-2025 13:46:37 UTC] PHP Warning:  include(): Failed opening 'session_start.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/user_login.php on line 2
+[06-Jan-2025 13:46:37 UTC] PHP Warning:  require_once(PHPMailer/Exception.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/user_login.php on line 3
+[06-Jan-2025 13:46:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer/Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/user_login.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/asse6007/schemesfinder.com/user/user_login.php on line 3
+[06-Jan-2025 13:50:05 UTC] PHP Warning:  include(session_start.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/user_login.php on line 2
+[06-Jan-2025 13:50:05 UTC] PHP Warning:  include(): Failed opening 'session_start.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/user_login.php on line 2
+[06-Jan-2025 13:50:05 UTC] PHP Warning:  require_once(PHPMailer/Exception.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/user_login.php on line 3
+[06-Jan-2025 13:50:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer/Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/user_login.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/asse6007/schemesfinder.com/user/user_login.php on line 3
+[06-Jan-2025 13:56:29 UTC] PHP Warning:  include(db_login_connection.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/handle_vote.php on line 3
+[06-Jan-2025 13:56:29 UTC] PHP Warning:  include(): Failed opening 'db_login_connection.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/handle_vote.php on line 3
+[06-Jan-2025 13:56:29 UTC] PHP Warning:  Undefined variable $conn_login in /home/asse6007/schemesfinder.com/user/handle_vote.php on line 39
+[06-Jan-2025 13:56:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/asse6007/schemesfinder.com/user/handle_vote.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/asse6007/schemesfinder.com/user/handle_vote.php on line 39
+[06-Jan-2025 14:02:52 UTC] PHP Warning:  include(db_login_connection.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 5
+[06-Jan-2025 14:02:52 UTC] PHP Warning:  include(): Failed opening 'db_login_connection.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 5
+[06-Jan-2025 14:02:52 UTC] PHP Warning:  Undefined variable $conn_login in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 17
+[06-Jan-2025 14:02:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/asse6007/schemesfinder.com/user/user_dashboard.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 17
+[06-Jan-2025 14:03:58 UTC] PHP Warning:  include(db_login_connection.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 5
+[06-Jan-2025 14:03:58 UTC] PHP Warning:  include(): Failed opening 'db_login_connection.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 5
+[06-Jan-2025 14:03:58 UTC] PHP Warning:  Undefined variable $conn_login in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 17
+[06-Jan-2025 14:03:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/asse6007/schemesfinder.com/user/user_dashboard.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 17
+[06-Jan-2025 14:04:23 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 59
+[06-Jan-2025 14:04:23 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 59
+[06-Jan-2025 14:04:23 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 264
+[06-Jan-2025 14:04:23 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 264
+[06-Jan-2025 14:06:21 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 59
+[06-Jan-2025 14:06:21 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 59
+[06-Jan-2025 14:06:21 UTC] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 264
+[06-Jan-2025 14:06:21 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/user_dashboard.php on line 264
+[06-Jan-2025 14:06:25 UTC] PHP Warning:  include(db_login_connection.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/mark_read_notifications.php on line 3
+[06-Jan-2025 14:06:25 UTC] PHP Warning:  include(): Failed opening 'db_login_connection.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/mark_read_notifications.php on line 3
+[06-Jan-2025 14:06:25 UTC] PHP Warning:  Undefined variable $conn_login in /home/asse6007/schemesfinder.com/user/mark_read_notifications.php on line 14
+[06-Jan-2025 14:06:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/asse6007/schemesfinder.com/user/mark_read_notifications.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/asse6007/schemesfinder.com/user/mark_read_notifications.php on line 14
+[06-Jan-2025 14:09:19 UTC] PHP Warning:  include(session_start.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/edit_user_details.php on line 2
+[06-Jan-2025 14:09:19 UTC] PHP Warning:  include(): Failed opening 'session_start.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/edit_user_details.php on line 2
+[06-Jan-2025 14:09:19 UTC] PHP Warning:  require_once(PHPMailer/Exception.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/edit_user_details.php on line 6
+[06-Jan-2025 14:09:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer/Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/edit_user_details.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/asse6007/schemesfinder.com/user/edit_user_details.php on line 6
+[06-Jan-2025 14:19:53 UTC] PHP Warning:  include(session_start.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/edit_user_details.php on line 2
+[06-Jan-2025 14:19:53 UTC] PHP Warning:  include(): Failed opening 'session_start.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/edit_user_details.php on line 2
+[06-Jan-2025 14:19:53 UTC] PHP Warning:  require_once(PHPMailer/Exception.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/edit_user_details.php on line 6
+[06-Jan-2025 14:19:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer/Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/edit_user_details.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/asse6007/schemesfinder.com/user/edit_user_details.php on line 6
+[06-Jan-2025 14:23:29 UTC] PHP Warning:  include(session_start.php): Failed to open stream: No such file or directory in /home/asse6007/schemesfinder.com/user/logout.php on line 2
+[06-Jan-2025 14:23:29 UTC] PHP Warning:  include(): Failed opening 'session_start.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/asse6007/schemesfinder.com/user/logout.php on line 2
+[06-Jan-2025 14:23:29 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/asse6007/schemesfinder.com/user/logout.php on line 5

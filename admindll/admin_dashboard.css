@@ -1,0 +1,119 @@
+/* admin_dashboard.css */
+.dashboard-buttons .btn {
+    margin: 5px;
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+.search-results {
+    margin-top: 10px;
+}
+
+.search-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.search-results li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.search-results li:hover {
+    background-color: #f9f9f9;
+}
+
+.role-display {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.selected-users {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.enquiry-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.enquiry-item.unread {
+    background-color: #f1f1f1;
+}
+
+.enquiry-item.read {
+    background-color: #fff;
+}
+
+.mark-as-read {
+    float: right;
+    color: #007bff;
+    cursor: pointer;
+}
+/* admin_dashboard.css */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.container {
+    flex: 1;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.badge {
+    background-color: #dc3545; /* Red badge for unread enquiries */
+    margin-left: 5px;
+}
+
+.nav-tabs .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.enquiry-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.enquiry-item.unread {
+    background-color: #f1f1f1;
+}
+
+.mark-as-read {
+    float: right;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.subtab-content {
+    margin-top: 20px;
+}
