@@ -6,6 +6,7 @@ include('../includes/db_login_connection.php'); // Include database connection
 if (!isset($_SESSION['admin'])) {
     die("Unauthorized access.");
 }
+//kyujy
 
 // Check if the required POST data is set
 if (isset($_POST['id']) && isset($_POST['action'])) {
