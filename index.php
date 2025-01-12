@@ -10,7 +10,7 @@
     
 </head>
 <body>
-   Hi
+
     <?php include 'search/search-form.php';?>
 
     <?php include 'includes/footer.php';?>

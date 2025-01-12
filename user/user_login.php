@@ -329,7 +329,7 @@ if (isset($_POST['resend_otp'])) {
         <?php if (isset($successMessage)) { echo "<div class='alert alert-success'>$successMessage</div>"; } ?>
         <form method="POST">
             <div class="form-group">
-                <label for="email">Email-1</label>
+                <label for="email">Email</label>
                 <input type="email" class="form-control" id="email" name="email" required>
             </div>
             <div class="form-group">
