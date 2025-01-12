@@ -12,7 +12,7 @@
 <body>
 
     <?php include 'search/search-form.php';?>
-test
+
     <?php include 'includes/footer.php';?>
 
    
