@@ -14,7 +14,7 @@ use PHPMailer\PHPMailer\Exception;
 // Initialize error and success messages
 $error = '';
 $success = '';
-
+//
 // Handle form submission to change password
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $current_password = $_POST['current_password'];
@@ -100,6 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
