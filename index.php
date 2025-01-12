@@ -11,7 +11,6 @@
 </head>
 <body>
    
-<h1>Hi</h1>
     <?php include 'search/search-form.php';?>
 
     <?php include 'includes/footer.php';?>
